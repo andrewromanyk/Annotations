@@ -4,6 +4,17 @@ package ua.edu.ukma;
 public class Vehicle {
     int speed;
 
+    public String getSpeedType() {
+        return speedType;
+    }
+
+    public void setSpeedType(String speedType) {
+        this.speedType = speedType;
+    }
+
+    @ValidSpeed
+    String speedType;
+
     public int getSpeed() {
         return speed;
     }

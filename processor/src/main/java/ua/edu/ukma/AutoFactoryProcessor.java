@@ -1,7 +1,6 @@
 package ua.edu.ukma;
 
 import com.squareup.javapoet.ClassName;
-import ua.edu.ukma.ElementInfo;
 
 import java.io.IOException;
 import java.util.ArrayList;

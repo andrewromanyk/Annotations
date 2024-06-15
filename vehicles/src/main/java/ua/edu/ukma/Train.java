@@ -1,7 +1,6 @@
 package ua.edu.ukma;
 
 @StationElement("train")
-@HasString
 public class Train extends Vehicle{
     String route;
 
